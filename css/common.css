@@ -1,0 +1,47 @@
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: -0.05em;
+	color: #222;
+}
+
+.blind {
+	position: absolute;
+	width: 1px; height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+}
+
+.common-inner {
+	width: 1152px;
+    margin: 0 auto;
+    min-width: 1152px;
+}
+
+.gnb-menu .link-logo,
+.logo-area .search-box .btn-search::after,
+.btn-slide,
+.board-area .btn-more,
+.news-area .btn-more::after,
+.info-area .call {
+	background: url(../images/sprites_ic01.png) no-repeat;
+}
+.logo-area .link-logo {
+	background: url(../images/sprites_logo.png) no-repeat;
+}
+.slide-area .tab-menu::before {
+	background: url(../images/sprites_ic02.png) no-repeat;
+}
+.service-area .service-wrap .service-item::before {
+	background: url(../images/service_icon.png) no-repeat;
+}
+.sns-banner-area .title::after,
+.sns-banner-area .sort-sns {
+	background: url(../images/sns_banner_icon.png);
+}
+.sns-wrap .link-sns {
+	background: url(../images/footer_sns_icon.png) no-repeat;
+}

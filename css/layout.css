@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url(./reset.css);
+@import url(./common.css);
+
+.gnb-area .gnb-top {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+.gnb-area .gnb-menu {
+    display: flex;
+}
+.gnb-menu .link-logo {
+    display: block;
+    width: 105px; height: 27px;
+    margin-top: 8px;
+    background-position: -5px -165px;
+}
+.gnb-top .menu-wrap {
+    display: flex;
+}
+.gnb-top .menu-item {
+    line-height: 48px;
+    font-weight: 700;
+}
+.gnb-menu .menu-list:first-child {
+    margin-left: 65px;
+}
+.gnb-menu .menu-list+.menu-list {
+    margin-left: 20px;
+}
+.gnb-menu .menu-item:hover, .gnb-myinfo .menu-list:hover {
+    color: #2292e9;
+}
+.gnb-myinfo .menu-list {
+    padding: 0 10px;
+}
+.gnb-myinfo .menu-item {
+    display: block;
+    font-size: 14px;
+    height: 100%;
+}
+
+.header-area .logo-area {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-area .ic-logo {
+    margin: 38px 0 30px;
+}
+.logo-area .link-logo {
+    display: block;
+    width: 178px;
+    height: 51px;
+    background-position: 0 0;
+}
+.logo-area .search-box {
+    position: absolute;
+    top: 40px; left: 50%;
+    display: flex;
+    width: 460px; height: 42px;
+    margin-top: 0;
+    margin-left: -245px;
+    border: 3px solid #2292e9;
+    box-sizing: border-box;
+}
+.logo-area .search-box input {
+    flex: 1;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    padding: 0 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: #767676;
+}
+.logo-area .search-box input::placeholder {
+    font-size: 14px;
+    color: #2292e9;
+}
+.logo-area .search-box .img-keyboard {
+    position: absolute;
+    top: 12px;
+    right: 42px;
+    cursor: pointer;
+}
+.logo-area .search-box .btn-search {
+    width: 36px; height: 36px;
+    cursor: pointer;
+}
+.logo-area .search-box .btn-search::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background-position: -32px -97px;
+}
+.logo-area .language-area {
+    position: absolute;
+    top: 0; right: 0;
+    display: flex;
+    justify-content: end;
+    width: 110px;
+    height: 21px;
+}
+.language-area .lang {
+    width: 80px;
+    height: 21px;
+    padding: 2px 0 0 2px;
+    border-radius: 0;
+    border-color: #afcfea;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #1E6CB3;
+    background: url(../images/ic_arrow.png) no-repeat 96% center;
+    background-size: 8px auto;
+    appearance: none;
+}
+.language-area .btn-lang {
+    width: 30px; height: 21px;
+    border: 0;
+    background: #1e6cb3;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+.logo-area .weather-area {
+    display: flex;
+    width: 260px;
+    height: 85px;
+    margin-top: 38px;
+    margin-left: 3px;
+}
+.logo-area .weather-area .weather {
+    width: 58px; height: 47px;
+}
+.weather-area .weather-wrap {
+    max-width: 242px;
+    margin-left: 5px;
+}
+.weather-area .weather-box {
+    display: block;
+}
+.weather-area .weather-box .cur-degree {
+    font-size: 25px;
+    margin-right: 5px;
+    line-height: 25px;
+}
+.weather-area .weather-box .condition {
+    letter-spacing: -0.1em;
+}
+.weather-area .air-pollution-box {
+    display: block;
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.footer .corp-area {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.corp-area .menu-wrap {
+    display: flex;
+    padding: 15px 0;
+}
+.corp-area .menu-list {
+    position: relative;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #636363;
+}
+.corp-area .menu-list+.menu-list {
+    padding: 0 10px;
+}
+.corp-area .menu-list+.menu-list::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 14px;
+    margin-top: -6px;
+    background: #dcdcdc;
+} 
+.corp-area .menu-list em {
+    color: #000;
+}
+
+.corp-area .sns-wrap {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -14px;
+    overflow: hidden;
+}
+.sns-wrap .sns-item {
+    float: left;
+}
+.sns-wrap .sns-item+.sns-item {
+    margin-left: 12px;
+}
+.sns-wrap .link-sns {
+    display: block;
+    width: 24px;
+    height: 24px;
+
+}
+.sns-wrap .link-sns.facebook {
+    background-position: -25px 0;
+}
+.sns-wrap .link-sns.facebook:hover {
+    background-position: -25px -25px;
+}
+.sns-wrap .link-sns.twitter {
+    background-position: -50px 0;
+}
+.sns-wrap .link-sns.twitter:hover {
+    background-position: -50px -25px;
+}
+.sns-wrap .link-sns.instagram {
+    background-position: -75px 0;
+}
+.sns-wrap .link-sns.instagram:hover {
+    background-position: -75px -25px;
+}
+.sns-wrap .link-sns.kakao {
+    background-position: -100px 0;
+}
+.sns-wrap .link-sns.kakao:hover {
+    background-position: -100px -25px;
+}
+.sns-wrap .link-sns.youtube {
+    background-position: -125px 0;
+}
+.sns-wrap .link-sns.youtube:hover {
+    background-position: -125px -25px;
+}
+.sns-wrap .link-sns.blog {
+    background-position: -150px 0;
+}
+.sns-wrap .link-sns.blog:hover {
+    background-position: -150px -25px;
+}
+.footer .info-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+.footer .info-area .left {
+    display: flex;
+}
+.info-area .call {
+    width: 108px;
+    height: 45px;
+    margin-right: 40px;
+    background-position: -180px 0;
+}
+.info-area .addr-area {
+    font-size: 12px;
+    color: #636363;
+}
+.info-area .addr-area .addr {
+    margin-bottom: 2px;
+}
+.info-area .addr-area .link-addr {
+    font-size: 11px;
+}
+.info-area .addr-area p {
+    margin-bottom: 2px;
+}
+.info-area .addr-area .copy {
+    font-size: 11px;
+}
+.info-area .footer-img {
+    float: right;
+}
+.info-area .footer-img a+a {
+    margin-left: 10px;
+}
+.btn-top {
+    display: block;
+    position: fixed;
+    left: 50%; bottom: 98px;
+    width: 34px; height: 34px;
+    margin-left: 600px;
+    background: url(../images/icon_top.png) no-repeat;
+    transition: 1s;
+    opacity: 1;
+}
+.btn-top.hide {
+    bottom: -100px;
+    opacity: 0;
+}
