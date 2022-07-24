@@ -147,11 +147,11 @@
 .slide-area .mainSlide .button-control {
     position: absolute;
     top: 50%; left: auto; right: 22px;
-    background-position: -269px -285px;
+    background-position: -285px -285px;
     z-index: 10;
 }
 .slide-area .mainSlide .button-control.stop {
-    background-position: -285px -285px;
+    background-position: -269px -285px;
 }
 .slide-area .mainSlide .swiper-button-next {
     right: 5px;
@@ -187,38 +187,38 @@
     top: 137px;
 }
 .aside-area .link-covid span {
-    position: absolute;
-    left: 50%;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
-    text-align: center;
 }
 .aside-area .link-covid .confirmed {
-    top: 95px;
+    position: absolute;
+    top: 95px; 
     width: 130px; height: 26px;
+    text-align: center;
 }
 .aside-area .link-covid .new-confirmed {
-    margin-left: -146px;
+    left: 35px;
 }
 .aside-area .link-covid .total-confirmed {
-    margin-left: 17px;
+    left: 196px;
 }
 .aside-area .link-covid .prevention {
-    top: 181px;
+    position: absolute;
+    top: 181px; 
     width: 70px; height: 40px;
 }
 .aside-area .link-covid .first-prevention {
-    margin-left: -160px;
+    left: 32px;
 }
 .aside-area .link-covid .second-prevention {
-    margin-left: -75px;
+    left: 114px;
 }
 .aside-area .link-covid .third-prevention {
-    margin-left: 8px;
+    left: 196px;
 }
 .aside-area .link-covid  .fourth-prevention {
-    margin-left: 91px;
+    left: 286px;
 }
 
 .container .service-area {
@@ -237,40 +237,40 @@
     justify-content: space-between;
     width: 100%;
 }
-.service-area .service-wrap .service-item::before {
+.service-area .service-wrap .service-item .link-service::before {
     content: '';
     display: block;
     width: 60px; height: 60px;
     margin: 0 auto 10px;
 }
-.service-area .service-wrap .reservation::before {
+.service-area .service-wrap .reservation .link-service::before {
     background-position: -360px 0;
 }
-.service-area .service-wrap .work::before {
+.service-area .service-wrap .work .link-service::before {
     background-position: -120px 0;
 }
-.service-area .service-wrap .realty::before {
+.service-area .service-wrap .realty .link-service::before {
     background-position: -300px 0;
 }
-.service-area .service-wrap .study::before {
+.service-area .service-wrap .study .link-service::before {
     background-position: -180px 0;
 }
-.service-area .service-wrap .welfare::before {
+.service-area .service-wrap .welfare .link-service::before {
     background-position: -960px 0;
 }
-.service-area .service-wrap .house::before {
+.service-area .service-wrap .house .link-service::before {
     background-position: -780px 0;
 }
-.service-area .service-wrap .info::before {
+.service-area .service-wrap .info .link-service::before {
     background-position: -1140px 0;
 }
-.service-area .service-wrap .hand-seoul::before {
+.service-area .service-wrap .hand-seoul .link-service::before {
     background-position: -1020px 0;
 }
-.service-area .service-wrap .democracy-seoul::before {
+.service-area .service-wrap .democracy-seoul .link-service::before {
     background-position: -60px 0;
 }
-.service-area .service-wrap .city-council::before {
+.service-area .service-wrap .city-council .link-service::before {
     background-position: -600px 0;
 }
 .service-area .service-title {

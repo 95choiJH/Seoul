@@ -35,7 +35,7 @@ body {
 .slide-area .tab-menu::before {
 	background: url(../images/sprites_ic02.png) no-repeat;
 }
-.service-area .service-wrap .service-item::before {
+.service-area .service-wrap .link-service::before {
 	background: url(../images/service_icon.png) no-repeat;
 }
 .sns-banner-area .title::after,

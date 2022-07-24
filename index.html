@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>서울특별시 - 동행·매력 특별시 서울</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/faviconimages/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://95choijh.github.io/Seoul/">
+    <meta property="og:title" content="서울특별시">
+    <meta property="og:image" content="https://www.seoul.go.kr/res_newseoul/images/main/seoul_bi.jpg">
+    <meta property="og:description" content="동행·매력 특별시 서울의 주요뉴스, 시민참여, 주요서비스, 자주찾은서비스, 시장실, 분야별정보, 새소식등의 정보제공">
 </head>
 
 <body>
@@ -81,7 +102,7 @@
             <div class="visual-area">
                 <section class="slide-area">
                     <h2 class="blind">메인슬라이드</h2>
-                    <div class="menu-news">
+                    <div class="menu-news test">
                         <a href="" class="tab-menu menu-title active">주요뉴스</a>
                         <div class="swiper mainSlide slide-news active">
                             <div class="swiper-wrapper">
@@ -118,13 +139,13 @@
                             </div>
                             <div class="pagination">
                                 <div class="btn-slide swiper-button-prev"><span class="blind">이전</span></div>
-                                <a href="" class="btn-slide button-control stop"><span class="blind">정지</span></a>
+                                <a href="" class="btn-slide button-control"><span class="blind">정지</span></a>
                                 <div class="btn-slide swiper-button-next"><span class="blind">다음</span></div>
                                 <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="menu-part">
+                    <div class="menu-part test">
                         <a href="" class="tab-menu menu-title">시민참여</a>
                         <div class="swiper mainSlide slide-part">
                             <div class="swiper-wrapper">
@@ -176,7 +197,7 @@
                             </div>
                             <div class="pagination">
                                 <div class="btn-slide swiper-button-prev"></div>
-                                <a href="" class="btn-slide button-control stop"><span class="blind">정지</span></a>
+                                <a href="" class="btn-slide button-control"><span class="blind">정지</span></a>
                                 <div class="btn-slide swiper-button-next"></div>
                                 <div class="swiper-pagination"></div>
                             </div>
@@ -187,76 +208,93 @@
                     <a href="" class="link-covid">
                         <img src="./images/aside_covid.jpg" alt="코로나 현황" class="covid-banner">
                         <p class="covid-standard-date standard">2022.05.31.00시 기준</p>
-                        <span class="new-confirmed confirmed">3,340</span>
-                        <span class="total-confirmed confirmed">3,616,699</span>
+                        <div class="new-confirmed confirmed">
+                            <span class="blind">신규확진자</span>
+                            <span>3,340</span>
+                        </div>
+                        <div class="total-confirmed confirmed">
+                            <span class="blind">누적확진자</span>
+                            <span>3,616,699</span>
+                        </div>
                         <p class="prevention-standard-date standard">2022.05.31.00시 기준</p>
-                        <span class="first-prevention prevention">88.6%</span>
-                        <span class="second-prevention prevention">87.8%</span>
-                        <span class="third-prevention prevention">63.8%</span>
-                        <span class="fourth-prevention prevention">7.0%</span>
+                        <div class="first-prevention prevention">
+                            <span class="blind">1차 예방접종률</span>
+                            <span>88.6%</span>
+                        </div>
+                        <div class="second-prevention prevention">
+                            <span class="blind">2차 예방접종률</span>
+                            <span>87.8%</span>
+                        </div>
+                        <div class="third-prevention prevention">
+                            <span class="blind">3차 예방접종률</span>
+                            <span>63.8%</span>
+                        </div>
+                        <div class="fourth-prevention prevention">
+                            <span class="blind">4차 예방접종률</span>
+                            <span>7.0%</span>
+                        </div>
                     </a>
-                    <a href="" class="link-seoul"><img src="./images/seoul_vision.jpg" alt="서울비전 2030"
-                            class="vision-banner"></a>
+                    <a href="" class="link-seoul"><img src="./images/seoul_vision.jpg" alt="서울비전 2030"></a>
                 </section>
             </div>
             <section class="service-area">
                 <h2 class="title">주요 서비스</h2>
                 <ul class="service-wrap">
-                    <a href="" class="link-service">
-                        <li class="service-item reservation">
+                    <li class="service-item reservation">
+                        <a href="" class="link-service">
                             <p class="service-title">공공서비스예약</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li class="service-item declaration">
+                        </a>
+                    </li>
+                    <li class="service-item declaration">
+                        <a href="" class="link-service">
                             <p class="service-title">응답소(민원신고)</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item work">
+                        </a>
+                    </li>
+                    <li class="service-item work">
+                        <a href="" class="link-service">
                             <p class="service-title">서울일자리</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item realty">
+                        </a>
+                    </li>
+                    <li class="service-item realty">
+                        <a href="" class="link-service">
                             <p class="service-title">부동산정보</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item study">
+                        </a>
+                    </li>
+                    <li class="service-item study">
+                        <a href="" class="link-service">
                             <p class="service-title">평생학습포털</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item welfare">
+                        </a>
+                    </li>
+                    <li class="service-item welfare">
+                        <a href="" class="link-service">
                             <p class="service-title">서울복지포털</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item house">
+                        </a>
+                    </li>
+                    <li class="service-item house">
+                        <a href="" class="link-service">
                             <p class="service-title">서울주거포털</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item info">
+                        </a>
+                    </li>
+                    <li class="service-item info">
+                        <a href="" class="link-service">
                             <p class="service-title">청년몽땅정보통</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item hand-seoul">
+                        </a>
+                    </li>
+                    <li class="service-item hand-seoul">
+                        <a href="" class="link-service">
                             <p class="service-title">내 손안에 서울</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item democracy-seoul">
+                        </a>
+                    </li>
+                    <li class="service-item democracy-seoul">
+                        <a href="" class="link-service">
                             <p class="service-title">민주주의서울</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-service">
-                        <li href="" class="service-item city-council">
+                        </a>
+                    </li>
+                    <li class="service-item city-council">
+                        <a href="" class="link-service">
                             <p class="service-title">시의회</p>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
                 </ul>
                 <a href="" class="total-nuri"><span>전체누리집</span></a>
             </section>
@@ -387,69 +425,69 @@
             <section class="news-area">
                 <h2 class="title">새소식</h2>
                 <ul class="news-wrap">
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-environment"></i>
                                 <img src="./images/news_img01.jpg" alt="기후위기 대응 폭염대책" class="news-img">
                             </div>
                             <p class="desc">기후위기 대응 폭염대책…도심온도 낮추고 취약계층 지원</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-culture"></i>
                                 <img src="./images/news_img02.jpg" alt="어르신 코로나 블루 회복 정보" class="news-img">
                             </div>
                             <p class="desc">디자인으로 어르신 `코로나 블루` 회복 돕는다</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-work"></i>
                                 <img src="./images/news_img03.jpg" alt="무인기기(키오스크) 활용법" class="news-img">
                             </div>
                             <p class="desc">어르신, 무인기기(키오스크) 활용법 서울시에 물어보세요</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-welfare"></i>
                                 <img src="./images/news_img04.jpg" alt="서울시 아빠단 참여자 모집" class="news-img">
                             </div>
                             <p class="desc">자녀와 함께하는 서울시 아빠단 참여자 60명 모집</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-welfare"></i>
                                 <img src="./images/news_img05.jpg" alt="코로나 시기 영유아 발당상태 조사" class="news-img">
                             </div>
                             <p class="desc">코로나 시기 영유아 600명 발달상태 첫 조사…신청접수</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-environment"></i>
                                 <img src="./images/news_img06.jpg" alt="서울식물원 식재설계 공모전 시행" class="news-img">
                             </div>
                             <p class="desc">서울식물원, 식재설계 공모정원 5월 25일부터 만나보세요</p>
-                        </li>
-                    </a>
-                    <a href="" class="link-news">
-                        <li class="news-item">
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="" class="link-news">
                             <div class="img-box">
                                 <i class="cate-welfare"></i>
                                 <img src="./images/news_img07.jpg" alt="영유아 부모 자조모임 추가 모집" class="news-img">
                             </div>
                             <p class="desc">고립육아 해소 위한 `영유아 부모 자조모임` 100개 추가 모집</p>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
                     <li class="covid-info">
                         <a href="" class="link-covid">
                             <img src="./images/covid_banner.jpg" alt="코로나19 서울시 생활정보" class="news-img">
@@ -492,15 +530,15 @@
                         <div class="title-box">
                             <h2 class="title">서울시 SNS</h2>
                         </div>
-                        <div class="sns-box">
-                            <a href="" class="sort-sns insta"><span class="blind">인스타그램</span></a>
-                            <a href="" class="sort-sns facebook"><span class="blind">페이스북</span></a>
-                            <a href="" class="sort-sns twitter"><span class="blind">트위터</span></a>
-                            <a href="" class="sort-sns blog"><span class="blind">블로그</span></a>
-                            <a href="" class="sort-sns youtube"><span class="blind">유튜브</span></a>
-                            <a href="" class="sort-sns kakao"><span class="blind">카카오스토리</span></a>
-                        </div>
                     </a>
+                    <div class="sns-box">
+                        <a href="" class="sort-sns insta"><span class="blind">인스타그램</span></a>
+                        <a href="" class="sort-sns facebook"><span class="blind">페이스북</span></a>
+                        <a href="" class="sort-sns twitter"><span class="blind">트위터</span></a>
+                        <a href="" class="sort-sns blog"><span class="blind">블로그</span></a>
+                        <a href="" class="sort-sns youtube"><span class="blind">유튜브</span></a>
+                        <a href="" class="sort-sns kakao"><span class="blind">카카오스토리</span></a>
+                    </div>
                 </section>
             </div>
             <section class="banner-slide-area">
