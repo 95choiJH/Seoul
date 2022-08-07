@@ -46,13 +46,11 @@
     display: flex;
     justify-content: space-between;
 }
-.logo-area .ic-logo {
-    margin: 38px 0 30px;
-}
 .logo-area .link-logo {
     display: block;
     width: 178px;
     height: 51px;
+    margin: 38px 0 30px;
     background-position: 0 0;
 }
 .logo-area .search-box {
